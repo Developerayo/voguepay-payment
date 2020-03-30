@@ -1,4 +1,5 @@
 .voguepay {
+  margin-top: 250px;
   text-align: center;
 }
 
@@ -19,14 +20,57 @@
 }
 
 .voguepay-link {
-  color: #61dafb;
+  color: #509BE2;
 }
 
-@keyframes voguepay-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.payment-button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #509BE2;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 14px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.payment-button er span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.payment-button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.payment-button:hover {
+  box-shadow: 0 0px 0px 0 rgba(0,0,0,0.24), 0 1px 10px 0 rgba(0,0,0,0.19);
+}
+
+.ppayment-button:hover span {
+  padding-right: 25px;
+}
+
+.payment-button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button {
+  background-color: #00BFFF;
+  border-color: #3ac162;
+  font-weight: bold;
+  padding: 12px 15px;
+  color: #ffffff;
 }
