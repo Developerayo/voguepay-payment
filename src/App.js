@@ -43,6 +43,9 @@ function voguepay() {
 </div>
 </form>
       </header>
+      <div className="secure">
+            <img className="secure" src={secure} alt="secured-by-paystack"/>
+            </div>
     </div>
   );
 }
