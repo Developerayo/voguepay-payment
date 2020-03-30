@@ -26,7 +26,7 @@ git clone git@github.com:Developerayo/voguepay-payment.git
 
 Move into the file with
 ```
-cd paystack-payment
+cd voguepay-payment
 ```
 
 Then
