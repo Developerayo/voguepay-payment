@@ -68,11 +68,11 @@
 }
 
 .secure {
-  padding-top: 55px;
   text-align: center;
   display: block;
   justify-content: center;
   align-items: center;
   margin: auto;
-  max-width: 380px !important;
+  max-width: 500px !important;
+  padding-left: 1%;
 }
