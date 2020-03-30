@@ -67,10 +67,13 @@
   right: 0;
 }
 
-.button {
-  background-color: #00BFFF;
-  border-color: #3ac162;
-  font-weight: bold;
-  padding: 12px 15px;
-  color: #ffffff;
+.secure {
+  padding-top: 55px;
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  max-width: 380px !important;
+
 }
