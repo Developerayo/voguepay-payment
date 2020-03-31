@@ -29,7 +29,8 @@ Move into the project directory
 cd voguepay-payment
 ```
 
-Then
+Install dependencies
+
 ```
 yarn install
 ```
