@@ -34,6 +34,7 @@ Install dependencies
 ```
 yarn install
 ```
+
 Start dev server
 
 ```
@@ -41,11 +42,11 @@ yarn start
 ```
 now open https://localhost:3000
 
-Testing with jest and standards
+Testing with jest
 
 ```
 yarn test
 ```
 
 <br/>
-Don't forget to drop a ⭐️ I certainly do not mind🙂
+Don't forget to drop a ⭐️ I certainly do not mind 🙂
