@@ -24,7 +24,7 @@ Clone
 git clone git@github.com:Developerayo/voguepay-payment.git
 ```
 
-Move into the directory
+Move into the project directory
 ```
 cd voguepay-payment
 ```
